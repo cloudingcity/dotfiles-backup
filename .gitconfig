@@ -25,4 +25,4 @@
 [mergetool]
 	keepBackup = false
 [merge]
-	tool = vimdiff
+	tool = winmerge
