@@ -20,6 +20,8 @@
 	lg = !git lg1
 	rb = rebase
 	rbi = rebase -i
+	rbc = rebase --continue
+	rba = rebase --abort
 	rs = reset
 	rsh = reset --hard
 [help]
