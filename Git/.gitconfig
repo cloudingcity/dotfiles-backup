@@ -34,3 +34,5 @@
 	keepBackup = false
 [merge]
 	tool = winmerge
+[rebase]
+    autosquash = true	
