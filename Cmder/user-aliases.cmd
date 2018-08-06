@@ -15,7 +15,7 @@ vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 
 ;= Custom
-cmp=composer
+cmp=composer $*
 ll=ls -l
 subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*
 cd~=c: && cd "%HOME%"
