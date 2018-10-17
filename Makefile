@@ -11,7 +11,6 @@ init:
 	make link
 link:
 	ln -fs `pwd`/.aliases ~/.aliases
-	ln -fs `pwd`/.gitconfig ~/.gitconfig
 	ln -fs `pwd`/.gitignore_global ~/.gitignore_global
 	ln -fs `pwd`/.tmux.conf ~/.tmux.conf
 	ln -fs `pwd`/.vimrc ~/.vimrc

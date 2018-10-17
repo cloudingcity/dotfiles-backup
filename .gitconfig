@@ -1,5 +1,5 @@
 [core]
-        excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
 	co = checkout
@@ -32,7 +32,5 @@
 	color = true
 [mergetool]
 	keepBackup = false
-[merge]
-	tool = winmerge
 [rebase]
-    autosquash = true	
+    autosquash = true
