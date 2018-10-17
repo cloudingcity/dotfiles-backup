@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/Library/Python/2.7/bin:~/.composer/vendor/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
