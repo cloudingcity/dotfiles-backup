@@ -1,5 +1,5 @@
 [core]
-	autocrlf = true
+        excludesfile = ~/.gitignore_global
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
 	co = checkout
