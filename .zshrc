@@ -112,5 +112,3 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.aliases
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/mariadb@10.2/bin:$PATH"
