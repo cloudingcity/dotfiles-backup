@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/Users/shawnpeng/Library/Python/2.7/bin:~/.composer/vendor/bin:$PATH
+export PATH=$HOME/Library/Python/2.7/bin:~/.composer/vendor/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/shawnpeng/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export LC_ALL=en_US.UTF-8
 # export LANG=en_US.UTF-8
 
@@ -64,10 +64,7 @@ export LC_ALL=en_US.UTF-8
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git,
-  zsh-autosuggestions
-)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,3 +109,4 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.aliases
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
