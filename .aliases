@@ -1,7 +1,13 @@
-alias cmp='composer'
+# Common
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias zshconfig='vi ~/.zshrc'
 alias desktop='cd ~/Desktop'
+alias vi='vim'
+
+# PHP
+alias cmp='composer'
+
+# Git
 alias gs='git status'
 alias gco='git checkout'
 alias gbr='git branch'
@@ -24,3 +30,4 @@ alias grsh='git reset --hard'
 alias gp='git push'
 alias gpl='git pull'
 alias gf='git fetch'
+
