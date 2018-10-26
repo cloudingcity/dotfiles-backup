@@ -1,6 +1,7 @@
 # Common
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-alias zshconfig='vi ~/.zshrc'
+alias zshconfig='vim ~/.zshrc'
+alias vimconfig='vim ~/.vimrc'
 alias desktop='cd ~/Desktop'
 alias vi='vim'
 
