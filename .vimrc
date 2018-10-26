@@ -16,6 +16,7 @@ set backspace=indent,eol,start   "Make backspace behave like every other editor.
 "--- Visuals ---"
 colorscheme Tomorrow-Night-Eighties
 set t_Co=256                     "Use 256 colors. This is useful for Terminal Vim.
+set cursorline
 
 
 "--- Search ---"
