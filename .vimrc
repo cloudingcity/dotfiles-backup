@@ -6,6 +6,7 @@ set ai
 "set ruler
 "set backspace=2
 "set nowrap
+set showcmd                      "Show (partial) command in the status line
 set expandtab                    "Auto transform tab to space.
 set tabstop=4                    "Set tab equals 4 spaces.
 set laststatus=2
