@@ -1,12 +1,13 @@
 syntax on
 
 "--- General Settings --- "
-"set ai
+set ai
 "set shiftwidth=4
 "set ruler
 "set backspace=2
 "set nowrap
-"set expandtab
+set expandtab                    "Auto transform tab to space.
+set tabstop=4                    "Set tab equals 4 spaces.
 set laststatus=2
 set number                       "Let's activate line numbers
 let mapleader = ","              "The default leader is \, but a comma is much better.
