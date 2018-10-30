@@ -25,3 +25,9 @@ fi
 
 # Load aliases
 source ~/.aliases
+
+# Functions
+function zssh() {
+    ssh "$@" -t zsh
+}
+
