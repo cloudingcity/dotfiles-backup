@@ -1,11 +1,15 @@
-syntax on
+"--- Vim-plug ---"
+so ~/.vim/plugins.vim
 
-"--- General Settings --- "
+
+"--- General Settings ---" 
+syntax on
 set ai
 "set shiftwidth=4
 "set ruler
 "set backspace=2
 "set nowrap
+set noshowmode                   "No show status mode
 set showcmd                      "Show (partial) command in the status line
 set expandtab                    "Auto transform tab to space.
 set tabstop=4                    "Set tab equals 4 spaces.
@@ -13,7 +17,8 @@ set laststatus=2
 set number                       "Let's activate line numbers
 let mapleader = ","              "The default leader is \, but a comma is much better.
 set backspace=indent,eol,start   "Make backspace behave like every other editor.
-set clipboard=unnamed
+set clipboard=unnamed            "Allow copy to clipboard
+
 
 "--- Visuals ---"
 colorscheme Tomorrow-Night-Eighties
@@ -34,13 +39,15 @@ nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
 
-
 "--- Mappings ---"
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
 "Add simple highlight removal.
 nmap <Leader><space> :nohlsearch<cr>
+
+"Make NERDTree easier to toggle.
+nmap <C-O> :NERDTreeToggle<cr>
 
 
 "--- Powerline ---"
