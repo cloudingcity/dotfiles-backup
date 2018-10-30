@@ -13,7 +13,7 @@ set laststatus=2
 set number                       "Let's activate line numbers
 let mapleader = ","              "The default leader is \, but a comma is much better.
 set backspace=indent,eol,start   "Make backspace behave like every other editor.
-
+set clipboard=unnamed
 
 "--- Visuals ---"
 colorscheme Tomorrow-Night-Eighties
