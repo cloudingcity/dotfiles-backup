@@ -27,7 +27,6 @@ fi
 source ~/.aliases
 
 # Functions
-function zssh() {
+zssh() {
     ssh "$@" -t zsh
 }
-
