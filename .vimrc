@@ -1,3 +1,5 @@
+set nocompatible   " Disable vi-compatibility
+
 "--- Vim-plug ---"
 so ~/.vim/plugins.vim
 
@@ -48,6 +50,16 @@ nmap <Leader><space> :nohlsearch<cr>
 
 "Make NERDTree easier to toggle.
 nmap <C-O> :NERDTreeToggle<cr>
+
+nmap <C-L> :CtrlPBufTag<cr>
+
+nmap <C-y> :CtrlPMRUFiles<cr>
+
+
+"--- Plugins  ---"
+" CtrlP
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:30,results:30'
 
 
 "--- Powerline ---"
