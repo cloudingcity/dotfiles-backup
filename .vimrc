@@ -52,8 +52,8 @@ nmap <Leader><space> :nohlsearch<cr>
 nmap <C-O> :NERDTreeToggle<cr>
 
 "Make CtrlP easier to execute
-nmap <c-y> :CtrlPBufTag<cr>
-nmap <C-e> :CtrlPMRUFiles<cr>
+nmap <c-e> :CtrlPBufTag<cr>
+nmap <C-y> :CtrlPMRUFiles<cr>
 
 
 "--- Plugins  ---"
