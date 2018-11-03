@@ -12,5 +12,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'Yggdroot/indentLine'
+
+Plug 'ervandew/supertab'
+
 call plug#end()
 

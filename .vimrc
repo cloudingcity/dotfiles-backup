@@ -8,7 +8,7 @@ so ~/.vim/plugins.vim
 syntax on
 set ai
 set shiftwidth=4
-"set ruler
+set ruler
 "set backspace=2
 "set nowrap
 set noshowmode                   "No show status mode
