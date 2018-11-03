@@ -4,7 +4,7 @@ set nocompatible   " Disable vi-compatibility
 so ~/.vim/plugins.vim
 
 
-"--- General Settings ---" 
+"--- General Settings ---"
 syntax on
 set ai
 "set shiftwidth=4
@@ -23,7 +23,9 @@ set clipboard=unnamed            "Allow copy to clipboard
 
 
 "--- Visuals ---"
-colorscheme Tomorrow-Night-Eighties
+" Gruvbox
+"let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
 set t_Co=256                     "Use 256 colors. This is useful for Terminal Vim.
 set cursorline
 
@@ -40,6 +42,7 @@ nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
+
 
 "--- Mappings ---"
 "Make it easy to edit the Vimrc file.
@@ -60,11 +63,7 @@ nmap <C-y> :CtrlPMRUFiles<cr>
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:30,results:30'
-
-
-"--- Powerline ---"
-set rtp+=$HOME/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
-
+" Lightline
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ }
