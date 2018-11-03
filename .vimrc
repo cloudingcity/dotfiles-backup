@@ -7,7 +7,7 @@ so ~/.vim/plugins.vim
 "--- General Settings ---"
 syntax on
 set ai
-"set shiftwidth=4
+set shiftwidth=4
 "set ruler
 "set backspace=2
 "set nowrap

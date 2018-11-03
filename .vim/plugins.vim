@@ -9,5 +9,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'itchyny/lightline.vim'
 
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
