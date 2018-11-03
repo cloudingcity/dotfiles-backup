@@ -1,3 +1,3 @@
 # Todo
 
-- [  ] Auto link powerline config
+- [ ] Auto link powerline config
