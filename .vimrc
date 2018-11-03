@@ -67,3 +67,5 @@ let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:30,results:30'
 let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ }
+" IdentLine 
+let g:indentLine_setConceal = 0
