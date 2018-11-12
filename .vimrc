@@ -57,7 +57,7 @@ nmap <Leader><space> :nohlsearch<cr>
 "Make NERDTree easier to toggle.
 nmap <C-O> :NERDTreeToggle<cr>
 
-"Make CtrlP easier to execute
+"Make CtrlP easier to execute.
 nmap <c-e> :CtrlPBufTag<cr>
 nmap <C-y> :CtrlPMRUFiles<cr>
 
