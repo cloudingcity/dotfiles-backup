@@ -1,0 +1,17 @@
+"--- General Settings ---"
+set ignorecase                   "Ignore case in search patterns"
+set smartcase                    "No ignore case when pattern has uppercase"
+set clipboard=unnamed            "Allow copy to clipboard
+
+
+"--- Search ---"
+set hlsearch
+set incsearch
+
+
+"--- Mappings ---"
+let mapleader = ","              "The default leader is \, but a comma is much better.
+
+"Add simple highlight removal.
+nmap <Leader><space> :nohlsearch<cr>
+

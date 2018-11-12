@@ -17,7 +17,8 @@ set expandtab                    "Auto transform tab to space.
 set tabstop=4                    "Set tab equals 4 spaces.
 set laststatus=2
 set number                       "Let's activate line numbers
-let mapleader = ","              "The default leader is \, but a comma is much better.
+set ignorecase                   "Ignore case in search patterns"
+set smartcase                    "No ignore case when pattern has uppercase"
 set backspace=indent,eol,start   "Make backspace behave like every other editor.
 set clipboard=unnamed            "Allow copy to clipboard
 
@@ -45,6 +46,8 @@ nmap <C-L> <C-W><C-L>
 
 
 "--- Mappings ---"
+let mapleader = ","              "The default leader is \, but a comma is much better.
+
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
