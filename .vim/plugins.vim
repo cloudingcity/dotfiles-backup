@@ -13,5 +13,7 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'ervandew/supertab'
 
+Plug 'tpope/vim-surround'
+
 call plug#end()
 
