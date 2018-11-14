@@ -15,5 +15,7 @@ Plug 'ervandew/supertab'
 
 Plug 'tpope/vim-surround'
 
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
