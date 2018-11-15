@@ -2,7 +2,7 @@
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias zshconfig='vim ~/.zshrc'
 alias vimconfig='vim ~/.vimrc'
-alias desktop='cd ~/Desktop'
+alias desk='cd ~/Desktop'
 alias vi='vim'
 
 # PHP
@@ -27,6 +27,7 @@ alias glg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold 
 alias grb='git rebase'
 alias grbi='git rebase -i'
 alias grs='git reset'
+alias grss='git reset --soft'
 alias grsh='git reset --hard'
 alias gp='git push'
 alias gpl='git pull'
