@@ -16,3 +16,4 @@ link:
 	ln -fs `pwd`/.vimrc ~/.vimrc
 	ln -fs `pwd`/.zshrc ~/.zshrc
 	ln -fs `pwd`/.ideavimrc ~/.ideavimrc
+	ln -fs `pwd`/.vim/plugins.vim ~/.vim/plugins.vim

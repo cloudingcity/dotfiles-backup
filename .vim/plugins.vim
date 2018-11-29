@@ -17,5 +17,7 @@ Plug 'tpope/vim-surround'
 
 Plug 'pangloss/vim-javascript'
 
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
