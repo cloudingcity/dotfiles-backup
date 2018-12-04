@@ -24,7 +24,10 @@
                 }
             },
             {
-                "function": "powerline.segments.common.time.date"
+                "function": "powerline.segments.common.time.date",
+                "args": {
+                    "istime": true
+                }
             },
             {
                 "function": "powerline.segments.common.time.date",
