@@ -61,6 +61,9 @@ nmap <C-O> :NERDTreeToggle<cr>
 nmap <c-e> :CtrlPBufTag<cr>
 nmap <C-y> :CtrlPMRUFiles<cr>
 
+"Quick click jj to ESC in insert mode.
+imap jj <Esc>
+
 
 "--- Plugins  ---"
 " CtrlP

@@ -12,6 +12,8 @@ set incsearch
 "--- Mappings ---"
 let mapleader = ","              
 
+imap jj <Esc>
+
 nmap <Leader><space> :nohlsearch<cr>
 
 "--- Plugins ---"
