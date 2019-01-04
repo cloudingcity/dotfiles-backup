@@ -11,6 +11,9 @@ alias art='php artisan'
 
 # Git
 alias gs='git status -sb'
+alias gst='git stash'
+alias gstp='git stash pop'
+alias gstl='git stash list'
 alias gco='git checkout'
 alias gcp='git cherry-pick'
 alias gbr='git branch'
