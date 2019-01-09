@@ -42,4 +42,8 @@ alias grsh='git reset --hard'
 alias gp='git push'
 alias gpl='git pull'
 alias gf='git fetch'
+alias gfa='git fetch --all'
+alias gignore='git update-index --assume-unchanged'
+alias gunignore='git update-index --no-assume-unchanged'
+alias gignored='git ls-files -v | grep "^[[:lower:]]"'
 
