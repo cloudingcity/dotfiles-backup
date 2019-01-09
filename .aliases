@@ -4,6 +4,7 @@ alias zshconfig='vim ~/.zshrc'
 alias vimconfig='vim ~/.vimrc'
 alias desk='cd ~/Desktop'
 alias vi='vim'
+alias ls='exa'
 
 # PHP
 alias cmp='composer'
