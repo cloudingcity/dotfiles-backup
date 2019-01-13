@@ -46,5 +46,5 @@ alias gf='git fetch'
 alias gfa='git fetch --all'
 alias gignore='git update-index --skip-worktree'
 alias gunignore='git update-index --no-skip-worktree'
-alias gignored='git ls-files -v | grep "^S"'
+alias gignored='git ls-files -v | grep ^S'
 
