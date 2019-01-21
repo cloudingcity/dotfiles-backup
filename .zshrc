@@ -6,6 +6,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export EDITOR=vim
 export BAT_THEME=gruvbox-dark-medium
+export FZF_DEFAULT_OPTS='--bind alt-j:down,alt-k:up'
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -31,5 +32,15 @@ source ~/.aliases
 
 # Functions
 zssh() {
-    ssh "$@" -t zsh
+  local remotes remote
+  remotes=$(cat ~/.remotes) &&
+  remote=$(echo "$remotes" | fzf +m) &&
+  ssh "$remote" -t zsh
+}
+
+fbr() {
+  local branches branch
+  branches=$(git branch -vv) &&
+  branch=$(echo "$branches" | fzf +m) &&
+  git checkout $(echo "$branch" | awk '{print $1}' | sed "s/.* //")
 }
