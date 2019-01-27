@@ -47,4 +47,29 @@ alias gfa='git fetch --all'
 alias gignore='git update-index --skip-worktree'
 alias gunignore='git update-index --no-skip-worktree'
 alias gignored='git ls-files -v | grep ^S'
+galias() { alias | grep 'git' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/['|\']//g" | sort; }
 
+# Docker
+alias dp="docker ps"        # Get container process
+alias dpa="docker ps -a"    # Get process included stop container
+alias di="docker images"    # Get images
+alias dip="docker inspect --format '{{ .NetworkSettings.IPAddress }}'" # Get container IP
+alias dr="docker run"
+alias drm="docker rm"
+alias drmi="docker rmi"
+dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/['|\']//g" | sort; }
+
+# Functions
+zssh() {
+  local remotes remote
+  remotes=$(cat ~/.remotes) &&
+  remote=$(echo "$remotes" | fzf +m) &&
+  ssh "$remote" -t zsh
+}
+
+fbr() {
+  local branches branch
+  branches=$(git branch -vv) &&
+  branch=$(echo "$branches" | fzf +m) &&
+  git checkout $(echo "$branch" | awk '{print $1}' | sed "s/.* //")
+}

@@ -29,18 +29,3 @@ fi
 
 # Load aliases
 source ~/.aliases
-
-# Functions
-zssh() {
-  local remotes remote
-  remotes=$(cat ~/.remotes) &&
-  remote=$(echo "$remotes" | fzf +m) &&
-  ssh "$remote" -t zsh
-}
-
-fbr() {
-  local branches branch
-  branches=$(git branch -vv) &&
-  branch=$(echo "$branches" | fzf +m) &&
-  git checkout $(echo "$branch" | awk '{print $1}' | sed "s/.* //")
-}
