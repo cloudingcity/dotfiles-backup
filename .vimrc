@@ -9,7 +9,6 @@ syntax on
 set ai
 set shiftwidth=4
 set ruler
-"set backspace=2
 "set nowrap
 set noshowmode                   "No show status mode
 set showcmd                      "Show (partial) command in the status line
@@ -19,8 +18,9 @@ set laststatus=2
 set number                       "Let's activate line numbers
 set ignorecase                   "Ignore case in search patterns"
 set smartcase                    "No ignore case when pattern has uppercase"
-set backspace=indent,eol,start   "Make backspace behave like every other editor.
+set backspace=2                  "Make backspace behave like every other editor.
 set clipboard=unnamed            "Allow copy to clipboard
+set ttimeoutlen=50               
 
 
 "--- Visuals ---"
