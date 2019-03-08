@@ -9,6 +9,7 @@ alias ls='exa'
 # PHP
 alias cmp='composer'
 alias art='php artisan'
+alias t='vendor/bin/phpunit'
 
 # Git
 alias gs='git status -sb'
